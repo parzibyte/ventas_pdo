@@ -1,4 +1,3 @@
-<?php include_once "encabezado.php" ?>
 <?php
 #Salir si alguno de los datos no está presente
 if(!isset($_POST["codigo"]) || !isset($_POST["descripcion"]) || !isset($_POST["precioVenta"]) || !isset($_POST["precioCompra"]) || !isset($_POST["existencia"])) exit();
